@@ -1,0 +1,19 @@
+{
+  "name": "photofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-async-handler": "^1.2.0",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.3.3"
+  }
+}
